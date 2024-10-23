@@ -483,10 +483,6 @@
     display: none;
   }
   
-  .card-category {
-    color: var(--color-primary);
-  }
-  
   .section {
     padding: var(--section-padding);
   }
@@ -569,7 +565,7 @@
   }
 
   .nav .nav-link:hover {
-    color: var(--color-white);
+    color: var(--nav-item-link-hover);
   }
 
   .nav .nav-link::before {
@@ -654,6 +650,10 @@
   
   .social-link > svg {
     fill: var(--text-color);
+  }
+  
+  .card-category {
+    color: var(--color-primary);
   }
   
   .card-services .card-title {
